@@ -18,6 +18,10 @@
     height: 480px; 
 }
 
+#home .h-primary{
+    font-size: 30px;
+}
+
 #home p{
     font-size: 13px;
 }
@@ -57,4 +61,12 @@
 .btn{
     font-size: 13px;
     padding: 4px 8px;
+}
+#cityn{
+    display: flex;
+    flex-direction: column;
+}
+#home .city p{
+    font-size: 18px;
+    display: inline-block;
 }

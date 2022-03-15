@@ -12,7 +12,12 @@
         }
         .wrapper {
             display: grid;
-            grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+        }
+
+        .gridd{
+            display: grid;
+            grid-template-columns: 50% 50%;
         }
 
         .wrapper > div{
@@ -21,6 +26,7 @@
             text-align: center;
             border: 4px solid blue;
             border-radius: 5px;
+            font-size: 10px;
 
         }
 
@@ -31,6 +37,7 @@
     </style>
 </head>
 <body>
+<div class="gridd">
     <div class="wrapper">
     <div>
         <h1>March, 1</h1>
@@ -128,6 +135,8 @@
     
     <div><h1>March, 31</h1>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aperiam ipsum sapiente illo maxime dignissimos aspernatur in. Fuga, dolor et.</div>
+    </div>
+    <div class="weather">Current Weather</div>
     </div>
 </body>
 </html>
