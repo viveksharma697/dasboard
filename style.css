@@ -262,214 +262,213 @@ footer{
 
 /* Styling section, giving background
 image and dimensions */
-            #cityn {
-               width: 100%;
-                height: 800px;
-                background:
-                    url('./88713922.webp');
-                background-size: cover;
-            }
+#cityn {
+   width: 100%;
+    height: 800px;
+    background:
+        url('./88713922.webp');
+    background-size: cover;
+}
     
-            /* Styling the left floating section */
-            #cityn .leftBox {
-                width: 50%;
-                height: 100%;
-                float: left;
-                padding: 50px;
-                box-sizing: border-box;
-                overflow: hidden;
-            }
+/* Styling the left floating section */
+#cityn .leftBox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
     
-            /* Styling the background of
-                left floating section */
-            #cityn .leftBox .content {
-                color: #fff;
-                background: rgba(0, 0, 0, 0.5);
-                padding: 40px;
-                transition: .5s;
-            }
+/* Styling the background of
+    left floating section */
+#cityn .leftBox .content {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    transition: .5s;
+}
     
-            /* Styling the hover effect
-                of left floating section */
-            #cityn .leftBox .content:hover {
-                background: #e91e63;
-            }
+/* Styling the hover effect
+    of left floating section */
+#cityn .leftBox .content:hover {
+    background: #e91e63;
+}
     
-            /* Styling the header of left
-                floating section */
-            #cityn .leftBox .content h1 {
-                margin: 0;
-                padding: 0;
-                font-size: 50px;
-                text-transform: uppercase;
-            }
+/* Styling the header of left
+    floating section */
+#cityn .leftBox .content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
     
-            /* Styling the paragraph of
-                left floating section */
-            #cityn .leftBox .content p {
-                margin: 10px 0 0;
-                padding: 0;
-            }
+/* Styling the paragraph of
+    left floating section */
+#cityn .leftBox .content p {
+    margin: 10px 0 0;
+    padding: 0;
+}
     
-            /* Styling the three events section */
-            #cityn .events {
-                position: relative;
-                width: 50%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.5);
-                float: right;
-                box-sizing: border-box;
-            }
+/* Styling the three events section */
+#cityn .events {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    float: right;
+    box-sizing: border-box;
+}
     
-            /* Styling the links of
-            the events section */
-            #cityn .events ul {
-                position: relative;
-                top: 50%;
-                transform: translateY(-50%);
-                margin: 0;
-                padding: 40px;
-                box-sizing: border-box;
-                overflow: hidden;
-            }
+/* Styling the links of
+the events section */
+#cityn .events ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
     
-            /* Styling the lists of the event section */
-            #cityn .events ul li {
-                list-style: none;
-                background: #fff;
-                box-sizing: border-box;
-                height: 220px;
-                margin: 15px 0;
-                overflow: hidden;
+/* Styling the lists of the event section */
+#cityn .events ul li {
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 220px;
+    margin: 15px 0;
+    overflow: hidden;
+}    
+    
+/* Styling the time class of events section */
+#cityn .events ul li .time {
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+    
+/* Styling the hover effect
+    of events section */
+#cityn .events ul li:hover .time {
+    background: #e91e63;
+}
+    
+/* Styling the header of time
+    class of events section */
+#cityn .events ul li .time h2 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    line-height: 30px;
+}
+    
+/* Styling the texts of time
+class of events section */
+#cityn .events ul li .time h2 span {
+    font-size: 1.5rem;
+    /* position: relative; */
+}
+    
+/* Styling the details
+class of events section */
+#cityn .events ul li .details {
                 
-            }
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
     
-            /* Styling the time class of events section */
-            #cityn .events ul li .time {
-                position: relative;
-                padding: 20px;
-                background: #262626;
-                box-sizing: border-box;
-                width: 30%;
-                height: 100%;
-                float: left;
-                text-align: center;
-                transition: .5s;
-            }
+/* Styling the header of the
+details class of events section */
+#cityn .events ul li .details h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
     
-            /* Styling the hover effect
-                of events section */
-            #cityn .events ul li:hover .time {
-                background: #e91e63;
-            }
+/* Styling the lists of details
+class of events section */
+#cityn .events ul li .details p {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 12px;
+}
     
-            /* Styling the header of time
-                class of events section */
-            #cityn .events ul li .time h2 {
-                position: relative;
-                margin: 0;
-                padding: 0;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                color: #fff;
-                font-size: 40px;
-                line-height: 30px;
-            }
+/* Styling the links of details
+class of events section */
+#cityn .events ul li .details a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 2px 3px;
+    /* border: 1.5px solid #262626; */
+    margin-top: 8px;
+    font-size: 18px;
+    transition: .5s;
+}
     
-            /* Styling the texts of time
-            class of events section */
-            #cityn .events ul li .time h2 span {
-                font-size: 1.5rem;
-                /* position: relative; */
-            }
-    
-            /* Styling the details
-            class of events section */
-            #cityn .events ul li .details {
+/* Styling the details class's hover effect */
+#cityn .events ul li .details a:hover {
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
+
+#weather-section .wrapper {
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    text-align: center;
+    grid-auto-rows: 70px;
                 
-                padding: 20px;
-                background: #fff;
-                box-sizing: border-box;
-                width: 70%;
-                height: 100%;
-                float: left;
-            }
+}
     
-            /* Styling the header of the
-            details class of events section */
-            #cityn .events ul li .details h3 {
-                position: relative;
-                margin: 0;
-                padding: 0;
-                font-size: 15px;
-            }
+#weather-section .gridd{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
     
-            /* Styling the lists of details
-            class of events section */
-            #cityn .events ul li .details p {
-                position: relative;
-                margin: 10px 0 0;
-                padding: 0;
-                font-size: 12px;
-            }
+#weather-section .wrapper > div{
+    background: rgb(241, 227, 227);
+    padding: 1em;
+    text-align: center;
+    border: 4px solid blue;
+    border-radius: 5px;
+    font-size: 10px;
     
-            /* Styling the links of details
-            class of events section */
-            #cityn .events ul li .details a {
-                display: inline-block;
-                text-decoration: none;
-                padding: 2px 3px;
-                /* border: 1.5px solid #262626; */
-                margin-top: 8px;
-                font-size: 18px;
-                transition: .5s;
-            }
-    
-            /* Styling the details class's hover effect */
-            #cityn .events ul li .details a:hover {
-                background: #e91e63;
-                color: #fff;
-                border-color: #e91e63;
-            }
-
-            #weather-section .wrapper {
-                display: grid;
-                grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-                text-align: center;
-                grid-auto-rows: 70px;
-                
-            }
-    
-            #weather-section .gridd{
-                display: grid;
-                grid-template-columns: 40% 60%;
-            }
-    
-            #weather-section .wrapper > div{
-                background: rgb(241, 227, 227);
-                padding: 1em;
-                text-align: center;
-                border: 4px solid blue;
-                border-radius: 5px;
-                font-size: 10px;
-    
-            }
+}
     
 
-            #weather-section .gridd .wrapper .march {
-                grid-column: 1/8;
-                padding: 15px;
-                background-color: beige;
-                font-size: 20px;
-            }
+#weather-section .gridd .wrapper .march {
+    grid-column: 1/8;
+    padding: 15px;
+    background-color: beige;
+    font-size: 20px;
+}
 
-            .weather {
-                background-image: linear-gradient(180deg, yellow, blue);
-            }
+.weather {
+    background-image: linear-gradient(180deg, yellow, blue);
+}
 
-            #weather-section .gridd .wrapper #abc {
-                background: #e91e63;
-                color: white;
-            }
+#weather-section .gridd .wrapper #abc {
+    background: #e91e63;
+    color: white;
+}
 
