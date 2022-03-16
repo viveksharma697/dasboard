@@ -70,3 +70,42 @@
     font-size: 18px;
     display: inline-block;
 }
+
+
+#cityn .events ul {
+    position: relative;
+    top: 35%;
+    transform: translateY(-100%);
+    margin-top: 0;
+    padding: ;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 650px;
+}
+
+#cityn .events {
+    position: relative;
+    width: 100%;
+    height: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    float: right;
+    box-sizing: border-box;
+}
+
+#cityn {
+    width: 100%;
+     height: 1300px;
+     background:
+         url('./88713922.webp');
+     background-size: cover;
+     
+ }
+
+ #cityn .leftBox {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
