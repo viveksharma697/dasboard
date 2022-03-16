@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background-color: rgba(233, 253, 46, 0.5);
+    background-color: rgba(1, 130, 250, 0.5);
 }
 
 /* CSS Variables */
@@ -24,6 +24,7 @@ body {
     position: sticky;
     top: 0px;
     overflow: hidden;
+    z-index: 1;
 }
 
 #navbar::before{
@@ -242,12 +243,23 @@ footer{
 .btn{
     padding: 6px 20px;
     border: 4px solid blue;
-    background-color: aquamarine;
-    color: red;
+    background-color: rgb(83, 83, 231);
     margin: 17px;
     font-size: 1.5rem;
     border-radius: 10px;
     cursor:pointer;
+    color: #fff;
+    
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn :hover {
+    background-color: aqua;
+    color: red;
 }
 
 .center{
@@ -268,6 +280,7 @@ image and dimensions */
     background:
         url('./88713922.webp');
     background-size: cover;
+    
 }
     
 /* Styling the left floating section */
@@ -292,7 +305,7 @@ image and dimensions */
 /* Styling the hover effect
     of left floating section */
 #cityn .leftBox .content:hover {
-    background: #e91e63;
+    background: blue;
 }
     
 /* Styling the header of left
@@ -359,7 +372,7 @@ the events section */
 /* Styling the hover effect
     of events section */
 #cityn .events ul li:hover .time {
-    background: #e91e63;
+    background: blue;
 }
     
 /* Styling the header of time
@@ -464,11 +477,40 @@ class of events section */
 }
 
 .weather {
-    background-image: linear-gradient(180deg, yellow, blue);
+    
 }
 
 #weather-section .gridd .wrapper #abc {
     background: #e91e63;
     color: white;
 }
+
+
+/* current weather section */
+.weather {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, yellow, blue);
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: white;
+    height: 470px;
+    text-shadow: 4px 4px 5px blue;
+  }
+  .containerr {
+    height: 20rem;
+    width: 25rem;
+    background-color: rgb(152, 228, 165);
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 16px;
+    border: 2px solid rgb(14, 43, 1);
+  }
+
+  .temp {
+      font-size: 5rem;
+  }
 
