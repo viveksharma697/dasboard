@@ -77,10 +77,10 @@
     top: 35%;
     transform: translateY(-100%);
     margin-top: 0;
-    padding: ;
+    
     box-sizing: border-box;
     overflow: hidden;
-    width: 650px;
+    width: 100vw;
 }
 
 #cityn .events {
@@ -109,3 +109,49 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+
+#weather-section .gridd{
+    display: grid;
+    grid-template-rows: 51% 49%;
+}
+
+.containerr {
+    height: 20rem;
+    width: 40vw;
+    background-color: rgb(152, 228, 165);
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 16px;
+    border: 2px solid rgb(14, 43, 1);
+  }
+
+#weather-section .gridd{
+    display: flex;
+    flex-direction: column;
+}
+
+#weather-section .gridd .wrapper {
+    margin: auto;
+}
+
+#weather-section .wrapper {
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    text-align: center;
+    grid-auto-rows: 70px;
+    text-align: center;
+    align-content: center;
+    margin-left: 12vw;
+}
+
+#cityn .leftBox .content:hover {
+    background: blue;
+    max-height: 100vw;
+    margin: -35px;
+}
+#cityn .leftBox .content {
+    
+    max-height: 100vw;
+    overflow: hidden;
+}
+
